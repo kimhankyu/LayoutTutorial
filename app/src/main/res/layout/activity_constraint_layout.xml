@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLayout">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView01"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tv02"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:background="#81c784"/>
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView02"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv01"
+        app:layout_constraintRight_toLeftOf="@+id/tv03"
+        android:background="#e0e0e0"/>
+
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView03"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv02"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#ff8a65"/>
+
+    <TextView
+        android:id="@+id/tv04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView04"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tv05"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:background="#81c784"/>
+
+    <TextView
+        android:id="@+id/tv05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView05"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv01"
+        app:layout_constraintLeft_toRightOf="@+id/tv04"
+        app:layout_constraintRight_toLeftOf="@+id/tv06"
+        android:background="#e0e0e0"/>
+
+    <TextView
+        android:id="@+id/tv06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView06"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv01"
+        app:layout_constraintLeft_toRightOf="@+id/tv05"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#ff8a65"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
