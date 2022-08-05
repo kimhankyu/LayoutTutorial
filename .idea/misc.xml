@@ -5,13 +5,13 @@
       <map>
         <entry key="app/src/main/res/layout/activity_constraint_layout.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/activity_drawer_layout.xml" value="0.2947916666666667" />
-        <entry key="app/src/main/res/layout/activity_frame_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_frame_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_linear_layout_horizontal.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_linear_layout_horizontal.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_linear_layout_vertical.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_table_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_table_layout.xml" value="0.1" />
       </map>
     </option>
   </component>
